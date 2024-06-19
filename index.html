@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <script src="main.js" ></script>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <h2>Select your hand! First to five wins.</h2>
+        <div class="choices">
+            <button>Rock</button>
+            <button>Paper</button>
+            <button>Scissors</button>
+        </div>
+        <div class="actions">
+            <button id="confirm">Confirm</button>
+        </div>
+        <div class="scores">
+            <div class="board">
+                <div id="humScore"></div>
+                <div>Your Score</div>
+            </div>
+            <div class="board">
+                <div id="compScore"></div>
+                <div>Computer's Score</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

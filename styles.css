@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 600px;
+}
+
+.choices {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+button {
+    border-radius: 15px;
+    border: 2px solid black;
+    font-weight: 700;
+}
+
+.choices button {
+    height: 100px;
+    width: 125px;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0px 0px 0px;
+}
+
+#confirm {
+    background-color: #4681f4;
+    height: 50px;
+    width: 100px;
+}
+
+#nextRound {
+    background-color: #68C151;
+    height: 50px;
+    width: 100px;
+}
+
+#restart {
+    background-color: lightcoral;
+    height: 50px;
+    width: 100px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+#humScore {
+    font-weight: 800;
+    font-size: 84px;
+}
+
+#compScore {
+    font-weight: 800;
+    font-size: 84px;
+}
+
